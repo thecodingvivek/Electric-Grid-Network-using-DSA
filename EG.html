@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Grid</title>
+    <script defer src="/eg.js"></script>
+    <script defer src="/main.js"></script>
+
+    <link rel="stylesheet" href="/eg.css">
+</head>
+<body>
+    <div class="coords_cont">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#e8eaed"><path d="M440-42v-80q-125-14-214.5-103.5T122-440H42v-80h80q14-125 103.5-214.5T440-838v-80h80v80q125 14 214.5 103.5T838-520h80v80h-80q-14 125-103.5 214.5T520-122v80h-80Zm40-158q116 0 198-82t82-198q0-116-82-198t-198-82q-116 0-198 82t-82 198q0 116 82 198t198 82Zm0-120q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47Zm0-80q33 0 56.5-23.5T560-480q0-33-23.5-56.5T480-560q-33 0-56.5 23.5T400-480q0 33 23.5 56.5T480-400Zm0-80Z"/></svg>
+        <span id="coords" >Click on the graph to place the pole.</span>
+    </div>
+
+    <div class="btn_cont">
+        <div class="transmitpower" onclick="transmit()">
+            <svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#e8eaed"><path d="m422-232 207-248H469l29-227-185 267h139l-30 208ZM320-80l40-280H160l360-520h80l-40 320h240L400-80h-80Zm151-390Z"/></svg>
+            transmit power
+        </div>
+        <div class="transmitpower" onclick="FindError()">
+            find error
+        </div>
+    </div>
+
+
+    <div class="addpoint">
+        <div class="addbtn">
+            <span>add pole</span>
+        </div>
+    </div>
+
+    <canvas id="canv">
+
+    </canvas>
+</body>
+</html>
