@@ -8,11 +8,14 @@ body{
     overflow: hidden;
     background-color: black;
     cursor: pointer;
+
 }
 
 #canv{
     width: 100vw !important;
     height: 100vh !important;
+    background-image: url("/download.svg");
+    background-position: center;
 }
 
 .coords_cont{

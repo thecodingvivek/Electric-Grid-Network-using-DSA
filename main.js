@@ -5,6 +5,7 @@ const pole=new Image();
 pole.src="pole.png";
 var i=0;
 
+
 const g = new Transformer(460,356);
 
 canvas.addEventListener('click', (event) => {
