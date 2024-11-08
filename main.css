@@ -14,7 +14,7 @@ body{
 #canv{
     width: 100vw !important;
     height: 100vh !important;
-    background-image: url("/download.svg");
+    background-image: url("download.svg");
     background-position: center;
 }
 
@@ -79,7 +79,7 @@ body{
     z-index: 999;
     border-radius: 10px;
     display: flex;
-    background-image: url("/pole.png");
+    background-image: url("pole.png");
     background-position: center;
     background-size: 50%;
     background-repeat: no-repeat;
