@@ -196,7 +196,6 @@ function FindError(){
     let v=g.checkerror("power station");
     let delay=0;
     let prev=[];
-    let m=true;
     for(let vertex of v)
     {
         if(vertex.power==0)
@@ -207,7 +206,6 @@ function FindError(){
 
             },500+(delay*500));
         
-            m=false;
             setTimeout(()=>{
                 let prevvertex=prev.shift();
                 drawPoint(prevvertex.position[0],prevvertex.position[1],"gold");
