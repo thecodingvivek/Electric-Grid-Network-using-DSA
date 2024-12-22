@@ -1,6 +1,6 @@
 # Electric Grid Representation using Graphs
 
-Welcome to the Electric Grid Representation Project! This isn't just another boring project about power distribution — it's a fun simulation of how electricity zooms through your city, built using HTML, CSS, JavaScript, and a sprinkle of Python as main skeleton. If you’re here, it’s probably because you’re a graph nerd, an electric enthusiast, or someone who accidentally clicked on this repo. No judgment!
+Welcome to the Electric Grid Representation Project! This isn't just another boring project about power distribution — it's a fun simulation of how electricity zooms through your city, built using HTML, CSS, JavaScript, and a sprinkle of Python as main skeleton. If you’re here, it’s probably because you’re someone who accidentally clicked on this repo. No judgment!
 
 # What's the Buzz? 
 
