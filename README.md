@@ -6,7 +6,7 @@ Welcome to the Electric Grid Representation Project! This isn't just another bor
 
 Ever wondered how electricity knows where to go? Neither do we! But we used graphs to figure it out anyway. Think of this as a simulation where each pole is a node, and the connections between them are edges. We optimize routes, reduce power loss, and make sure you’re not left in the dark.
 
-#Tech Stack:
+# Tech Stack:
 
 HTML & CSS: For making the UI look electrifyingly good.
 
