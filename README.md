@@ -4,7 +4,7 @@ Welcome to the Electric Grid Representation Project! This isn't just another bor
 
 # What's the Buzz? 
 
-Ever wondered how electricity knows where to go? Neither do we! But we used graphs to figure it out anyway. Think of this as a simulation where each pole is a node, and the connections between them are edges. We optimize routes, reduce power loss, and make sure you’re not left in the dark.
+Ever wondered how electricity knows where to go? Neither do i! But i used graphs to figure it out anyway. Think of this as a simulation where each pole is a node, and the connections between them are edges. i optimize routes, reduce power loss, and make sure you’re not left in the dark.
 
 # Tech Stack:
 
@@ -14,5 +14,5 @@ JavaScript: The brains of the frontend. Connects your clicks to actions.
 
 Python: Blue print of the project
 
-Graphs: The unsung heroes. Directed, weighted, and ready to transmit electrons.
+Graphs: The unsung heroes. Directed, iighted, and ready to transmit electrons.
 
